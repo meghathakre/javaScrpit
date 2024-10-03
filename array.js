@@ -44,4 +44,13 @@ let sumofarray= arr.reduce(function(a,b){return a+b});
 console.log(sumofarray);
 
 
+let ar=[12,13,15,6,7];
+let ar1=[114,2,4,7,9];
+let strarry=ar.toString();
+console.log(strarry);
 
+let concatearray=arr.concat(ar1);
+console.log(concatearray);
+
+let joinarray=ar.join("");
+console.log(joinarray);
